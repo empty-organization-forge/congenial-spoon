@@ -1,0 +1,67 @@
+name: congenial-spoon
+id: ari:cloud:compass:a10ea91e-27d4-4f44-b66d-bd62492de975:component/b339cd9b-4f38-471a-bded-630454b12269/4d8b05ab-c357-4c14-89fa-df5aec514621
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/empty-organization-forge/congenial-spoon
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: .NET Framework Version (min)
+    type: number
+    value: null
+  - name: .NET Version (min)
+    type: number
+    value: null
+  - name: Akamai - Bot Management
+    type: single_select
+    value: null
+  - name: App Service - Deployment Slots
+    type: boolean
+    value: false
+  - name: App Service - Load Balanced
+    type: boolean
+    value: false
+  - name: Az Func - Deployment Slots
+    type: boolean
+    value: false
+  - name: Az Func - Load Balanced
+    type: boolean
+    value: false
+  - name: Azure Function Runtime (min)
+    type: number
+    value: null
+  - name: Azure Production Subscription
+    type: single_select
+    value: null
+  - name: Key Vault - Load Balanced
+    type: boolean
+    value: false
+  - name: Last Audited (YYYYMMDD)
+    type: number
+    value: null
+  - name: NodeJS Version (min)
+    type: number
+    value: null
+  - name: PHP Version (min)
+    type: number
+    value: null
+  - name: PII
+    type: boolean
+    value: false
+  - name: Readinow Id
+    type: number
+    value: null
+  - name: Shared Storage
+    type: boolean
+    value: false
+  - name: TEST-CUSTOM-FIELD
+    type: number
+    value: null
